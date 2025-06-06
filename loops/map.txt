@@ -1,0 +1,18 @@
+JavaScript Map ka main kaam key-value pairs ko store karna aur efficiently manage karna hota hai. Yeh ek advanced data structure hai jo normal objects se fast aur flexible hota hai.
+Map ke Main Features .
+
+
+✔ Unique key-value storage: Kisi bhi type ki key store kar sakta hai—string, number, object, even function!
+✔ Fast data retrieval: .get() method se direct access hota hai, bina loop chalaye.
+✔ Ordered elements: Keys wo order maintain karte hain jisme add kiye gaye hain.
+✔ Iterability: Easily iterate kar sakte hain bina extra steps ke.
+✔ Flexible operations: .set(), .has(), .delete(), .size() aur clear() ke through efficient data management hoti hai.
+
+
+
+Map ka Use Kab Hota Hai?
+-> Data lookup systems: Caching, search operations (e-commerce, API responses).
+-> Dynamic storage: Jab real-time data ko track aur update karna ho.
+-> Complex data structures: Jab keys objects ya functions ho.
+-> Performance optimization: Jab fast search aur retrieval chahiye ho.
+
