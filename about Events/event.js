@@ -53,6 +53,3 @@ document.addEventListener("keydown", function(event) {
 document.addEventListener("keydown", function(event) {   // keycode jbb preess krte hain code usee button ka code detaa hain konsa key press hua
     console.log("Key Code:", event.keyCode);
 });
-
-
-
