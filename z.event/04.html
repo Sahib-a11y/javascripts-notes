@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>hello sahib</h1>
+    <button id="stop">stop</button>
+    <script>
+        const clean = setInterval(() => {
+           console.log("this is interval", Math.floor( Math.random()*1000));
+        }, 2000);
+
+        document.querySelector('#stop').addEventListener('click',function(){
+            clearInterval(clean)
+            console.log("interval stoppped");
+        })
+    </script>
+</body>
+</html>
