@@ -1,0 +1,28 @@
+
+
+#heading{
+    color: white;
+}
+
+#start{
+    display: flex;
+    color: skyblue;
+    background-color: beige;
+
+}
+
+#start:hover{
+    background-color: skyblue;
+    color: beige;
+}
+
+#stop{
+    display: flex;
+    color: skyblue;
+    background-color: beige;
+}
+
+#stop:hover{
+    background-color: white;
+    color: black;
+}
