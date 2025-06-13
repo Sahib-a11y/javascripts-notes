@@ -25,7 +25,7 @@ const startcolorchanging = function () {
 
 const stoptchangingcolor = function(){
     clearInterval(interval) 
-    interval = null;
+    interval = null;  //ye null isliye lgaya hain jb interval ka kaam ho gyaa ho too bdd mein naa chle (start click krne pe) => memory ko free ho jati isee lgane se 
 }
 
 document.querySelector('#start').addEventListener('click', startcolorchanging);
